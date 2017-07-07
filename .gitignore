@@ -10,6 +10,6 @@ test-servers/
 vendor
 
 # others
-.calabash_settings
+
 .irb-history
 .idea/
