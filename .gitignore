@@ -1,0 +1,15 @@
+# Calabash / Cucumber
+rerun/
+reports/
+screenshots/
+screenshot*.png
+test-servers/
+
+# bundler
+.bundle
+vendor
+
+# others
+.calabash_settings
+.irb-history
+
