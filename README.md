@@ -22,3 +22,12 @@ https://facebook.github.io/react-native/docs/signed-apk-android.html
 query (https://github.com/calabash/calabash-android/blob/master/documentation/ruby_api.md)
 # To start testing:
 `calabash-android run *.apk`
+#query element in mobile
+1.query textbox 
+query("android.widget.EditText") 
+1.query button 
+query("android.widget.Button marked:'Register'") 
+1.query every element with text is Register 
+query("* marked:'Register'") 
+1. query for text 
+query("android.support.v7.widget.AppCompatTextView marked:'Register Staff'")
