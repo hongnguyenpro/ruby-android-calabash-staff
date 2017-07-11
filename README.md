@@ -32,3 +32,5 @@ query("android.widget.Button marked:'Register'")
 query("* marked:'Register'") 
 1. query for text 
 query("android.support.v7.widget.AppCompatTextView marked:'Register Staff'") 
+1. 
+https://github.com/calabash/calabash-android/blob/master/migrating_to_calabash_0.5.md
