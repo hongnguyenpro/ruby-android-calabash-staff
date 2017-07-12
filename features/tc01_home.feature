@@ -10,7 +10,11 @@ Feature: Home feature
     And I select the date from date picker
     And I press the "OK" button
     And I select spinner by id "text1"
+    And I select my department
+    And I scroll down
     And I wait for 5 seconds
-#    Then I see "Register Staff"
-
+    And I see "Register"
+    And I press the "Register" button
+    And I wait for 5 seconds
+    Then I should see "A1"
 

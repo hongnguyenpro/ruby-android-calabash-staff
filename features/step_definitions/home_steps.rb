@@ -15,3 +15,8 @@ Then /^I select spinner by id "([^"]*)"$/ do |spinnerid|
   touch("* id:'text1'")
   select_item_from_spinner("* text:'Intern'")
 end
+
+Then /^I select my department$/ do
+  tap_when_element_exists("android.support.v7.widget.AppCompatRadioButton index:3")
+end
+
