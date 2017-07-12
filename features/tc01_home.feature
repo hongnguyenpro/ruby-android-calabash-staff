@@ -1,6 +1,7 @@
 Feature: Home feature
 
-  Scenario: Registration Screen
+  @first_scenario
+  Scenario: As a user I want to registry the app then I can use it as a staff
     Given I wait for 3 seconds
     And I am in the home page
     When I enter "levunguyen" into input field number 1

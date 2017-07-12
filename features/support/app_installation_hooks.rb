@@ -16,7 +16,7 @@ Before do |scenario|
     end
 
     ensure_app_installed
-    clear_app_data
+  #  clear_app_data
     FeatureMemory.feature = feature
     FeatureMemory.invocation = 1
   else
